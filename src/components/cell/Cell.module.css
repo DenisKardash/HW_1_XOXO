@@ -1,0 +1,20 @@
+.cell {
+  margin: 2px;
+  width: 95px;
+  height: 95px;
+  background: #fff;
+  border: 1px solid #222222;
+  cursor: pointer;
+  outline: none;
+  font-size: 60px;
+
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell:hover {
+  background: rgb(214, 214, 214);
+}
